@@ -1,0 +1,10 @@
+[package]
+name = "spaces"
+version = "0.1.0"
+edition = "2024"
+
+[workspace]
+exclude = ["spacetimedb"]
+
+[dependencies]
+spacetimedb-sdk = { version = "2.0.*" }
